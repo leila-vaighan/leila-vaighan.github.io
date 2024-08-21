@@ -43,7 +43,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
 .w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
 .w3-ul{list-style-type:none;padding:0;margin:0}.w3-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.w3-ul li:last-child{border-bottom:none}
-.w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
+.w3-tooltip,.w3-display-container{position:relative;padding:3rem;display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
 .w3-ripple:active{opacity:0.5}.w3-ripple{transition:opacity 0s}
 .w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
 .w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
@@ -103,8 +106,12 @@ margin-right:auto;}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
-.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
-.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+.w3-display-bottommiddle{position:absolute;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.w3-display-container:hover{
+	
+    } 
+.w3-display-container3d:hover{transform: scale(1.1) rotateY(2deg) rotateX(2deg); box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); border-radius: 50%;}
+.w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-display-position{position:absolute}
 .w3-circle{border-radius:50%}
 .w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
@@ -139,7 +146,7 @@ margin-right:auto;}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
 .w3-leftbar{border-left:6px solid #ccc!important}.w3-rightbar{border-right:6px solid #ccc!important}
 .w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
 .w3-margin{margin:16px!important}.w3-margin-top{margin-top:16px!important}.w3-margin-bottom{margin-bottom:16px!important}
-.w3-margin-left{margin-left:16px!important}.w3-margin-right{margin-right:16px!important}
+.w3-margin-left{margin-left:16px!important}.w3-margin-right{margin-right:16px!important; }
 .w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 16px!important}.w3-padding-large{padding:12px 24px!important}
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
 .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
@@ -236,7 +243,14 @@ margin-right:auto;}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
-
+.contactbar{
+	display: flex!important;
+            justify-content: center!important;
+            align-items: center!important;
+            margin-right: 16px!important;
+	 
+	
+}.contactbar_item:hover{transform: scale(1.1) rotateY(10deg) rotateX(5deg);}
 .contact__form {
 	
     padding: 0.5rem;
